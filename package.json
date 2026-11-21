@@ -1,0 +1,16 @@
+{
+  "name": "arena-de-honra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Action RPG de horda em 3D low-poly no navegador, com 8 classes, 8 raças e multiplayer online.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node --check server.js",
+    "lint": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
